@@ -1,0 +1,78 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css"
+  </head>
+  
+  <body>
+    <h1>Image Resources Vacation Log</h1>
+  <table>
+    <tr>
+      <th>Start Date</th>
+      <th>Vacation Days</th>
+      <th>Personal Days</th>
+      <th class="unchanged">Next Vacation</th>
+      <th class="unchanged">Next Personal</th>
+    </tr>
+    <tr>
+      <td><input type="date"></td>
+      <td><!--start date + 182--></td>
+      <td><!----></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <th colspan="4">Vacation Log</th>
+    </tr>
+    <tr class="details">
+      <td>Date Start</td>
+      <td>Date End</td>
+      <td>Total Days</td>
+      <td>Notes</td>
+    </tr>
+    <tr>
+      <td><input type="date"></td>
+      <td><input type="date"></td>
+      <td><input type="number"></td>
+      <td><input type="text" class="notes"></td>
+    </tr>
+    <tr>
+      <td><button type="button">Add New</button></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <th colspan="4">Personal Log</th>
+    </tr>
+    <tr class="details">
+      <td>Date Start</td>
+      <td>Date End</td>
+      <td>Total Days</td>
+      <td>Notes</td>
+    </tr>
+    <tr>
+      <td><input type="date"></td>
+      <td><input type="date"></td>
+      <td><input type="number"></td>
+      <td><input type="text" class="notes"></td>
+    </tr>
+    <tr>
+      <td><button type="button">Add New</button></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    </table>
+    {{ getDaysFromToday }}
+    </body>
+  
